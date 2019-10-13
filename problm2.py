@@ -1,8 +1,8 @@
 a = list(map(int, input().split(",")))
 k = int(input())
 m = []
-total = 0
 diff = 0
+total = 0
 a.sort()
 for i in range(0, len(a)):
     total += a[i]
